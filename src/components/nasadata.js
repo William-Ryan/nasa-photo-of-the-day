@@ -17,13 +17,13 @@ const Nasa = () => {
     })
   }, []);
     return (
-        <div className="parent">
+        <div className="parent" style={{background: "gray"}}>
             <Header
             title = {items.title}
             date = {items.date}
             />
             <Image
-            src = {items.hdurl}
+            src = {items.url}
             />
             <Footer
             copyright = {items.copyright}

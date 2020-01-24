@@ -2,10 +2,11 @@ import React from "react";
 import "./App.css";
 import Nasa from "./components/nasadata"
 
-
 function App() {
-  return (
-    <Nasa />
+  return(
+  <div>
+  <Nasa />
+  </div>
   )
 }
 
